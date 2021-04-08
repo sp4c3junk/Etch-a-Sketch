@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Minimalist Etch A Sketch</title>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    
+    <body id="body">
+        <h1 id="title">Minimalist Etch A Sketch</h1>
+        <div>
+            <div id="buttons-list">
+                <div>
+                    <input type="button" value="Clean the Grid" id="clean" class="main-button">
+                </div>
+                <div>
+                    <input type="button" value="Paint with a Rainbow" id="rainbow" class="main-button">
+                </div>
+                <div>
+                    <input type="button" value="Eraser" id="eraser" class="main-button">
+                </div>
+            </div>
+            <div id="color-selection">
+                <div>
+                    <h2>Color Selection:</h2>
+                </div>
+                <div>
+                    <input type="color" id="color" value="#000000">
+                </div>
+                <div>
+                    <input type="button" id="random" value="Random">
+                </div>
+            </div>
+        </div>
+        <div id="container"></div>
+        </div>
+        <div id="row-selection">
+            <h2 id="row-numbers">Change number of rows: 30</h2>
+            <input type="range" min="4" max="60" value="30" id="row">
+        </div>
+    </body>
+
+    <script src="main.js"></script>
+</html>
